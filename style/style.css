@@ -87,3 +87,8 @@ img.green {
   width: 400px;
   height: 400px;
 }
+
+#map {
+  height: 400px;
+  width: 100%;
+ }
