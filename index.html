@@ -36,7 +36,23 @@
         width: 100%;
        }
     </style>
-    
+    <h3>Alpha Sigma Alpha Chapters</h3>
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        var uluru = {lat: 41.833850, lng: 87.623709};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCHcBlXymimy_bUuk_VwvW1ZKxPEe4W-HI&callback=initMap">
+        </script>
   </section>
   <footer></footer>
 </body>
