@@ -90,5 +90,18 @@ img.green {
 
 #map {
   height: 400px;
-  width: 100%;
- }
+  border: 3px #FF69B4;
+  margin: 50px;
+}
+
+.right{
+  width:50%;
+  padding:0;
+  float:right;
+}
+
+.left{
+  width:50%;
+  padding:0;
+  float:left;
+}
