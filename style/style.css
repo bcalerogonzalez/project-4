@@ -105,3 +105,16 @@ img.green {
   padding:0;
   float:left;
 }
+
+@media screen and (max-width: 500px) {
+  #navigation li {
+    display: :inline;
+    width: 100%;
+    border-bottom: 20px;
+    font-size: 25px;
+    padding: 20px;
+  }
+  button {
+    display: inline-block;
+  }
+}
