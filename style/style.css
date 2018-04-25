@@ -30,15 +30,15 @@ li {
   padding: 0;
   overflow: hidden;
   background-color: #333;
-  text-align: left;
+  text-align: center;
 }
 #navigation li {
-  padding: 0;
+  display: inline-block;
 }
 #navigation li a {
   display: block;
   color: white;
-  text-align: left;
+  text-align: center;
   padding: 5px;
   text-decoration: none;
 }
